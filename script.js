@@ -43,14 +43,14 @@ var createUl = document.createElement('ul');
 
 $begin.addEventListener('click', function() {
     if ($interval === 0){
-        var $interval = setInterval(function () {
+         $interval = setInterval(function () {
             $secondsLeft --;
             $timer.textContent = "Time: " + $secondsLeft;
             
      if ($secondsLeft <= 0) {
             clearInterval($interval);
             $end()
-            $timer.textContent = "done"
+            $timer.textContent = ""
             }
         },1000);
     }
