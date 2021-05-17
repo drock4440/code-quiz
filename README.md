@@ -13,3 +13,8 @@ I utilized the query selector to grab elements from my HTML pages to create func
 
 This code has 14 different buttons. They all serve a different purpose. The user will press the "Get Started!" button to begin the quiz. Then they will be prompted with 4 questions that have four seperate answers they can chose from. The application will check the answers and generate their score. They will then be prompted with an input section that asks for their initials. Once the user presses the submit button, they are redirected to the Leaderboard page. 
 From there they can see the high scores of all who have taken the quiz in the past. They can clear the leaderboard by pressing the 'Reset High Scores' button. They can also return to the quiz and try again by pressing the 'Return to Page!' button.
+
+#### Troubleshooting Issues
+
+For some reason when my page is deployed and the user finishes the quiz, it takes them to a page called TopScorers.html instead of the topScorers.html that is in my code. it causes a 404 error page and I am not sure why it does that. 
+If the user changes it back to topScorers.html, the leaderboard shows up. I could not solve the issue. 

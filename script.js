@@ -175,7 +175,7 @@ var submitBtn = document.createElement('button')
         // this is how the inputs remain in the system even after the page is refreshed
         localStorage.setItem("bothInputs", highScoreList)
         // here is that transfer of location to the other webpage
-        window.location.replace("topScorers.html")
+        window.location.replace("TopScorers.html")
        }
       });
     }
